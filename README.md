@@ -5,7 +5,7 @@ A custom Otto robot build using Arduino Nano ESP32.
 ## Hardware
 
 - Arduino Nano ESP32
-- 2x SG90 Servo Motors (legs)
+- 2x MG90S Servo Motors (metal gear, for legs)
 
 ## Wiring
 

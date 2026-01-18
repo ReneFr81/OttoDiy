@@ -4,11 +4,15 @@
  * This sketch controls the two leg servos for Otto robot
  * using Arduino Nano ESP32
  *
+ * Servos: MG90S (metal gear)
+ *
  * Wiring:
- *   Left Leg Servo  -> D2 (GPIO5)
- *   Right Leg Servo -> D3 (GPIO6)
- *   Servo VCC       -> 5V (external power recommended)
- *   Servo GND       -> GND
+ *   Left Leg Servo  -> D2 (GPIO5)  - Orange/Yellow wire
+ *   Right Leg Servo -> D3 (GPIO6)  - Orange/Yellow wire
+ *   Servo VCC (Red) -> 5V external power (not USB!)
+ *   Servo GND (Brown/Black) -> GND
+ *
+ * Note: MG90S draws ~200mA per servo, use external 5V supply
  */
 
 #include <ESP32Servo.h>
